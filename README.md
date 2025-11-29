@@ -4,6 +4,9 @@ Maestro Chat Bot is a **completely offline, private, and domain-aware custom LLM
 
 It provides accurate answers by retrieving relevant documentation from a FAISS index and generating responses through GPT4All running on CPU.
 
+<img width="1915" height="1052" alt="image" src="https://github.com/user-attachments/assets/ac60b2d8-fbff-4c00-9904-96d11a5b7439" />
+
+
 ---
 
 ## 🚀 Features
@@ -35,13 +38,13 @@ It provides accurate answers by retrieving relevant documentation from a FAISS i
 
 ### 1. Clone the Repository
 ```sh
-git clone <repo-link>
+git clone https://github.com/srdhanief/Maestro-Chat-Bot.git
 cd Maestro-Chat-Bot
 2. Install backend dependencies
 pip install fastapi uvicorn sentence-transformers gpt4all numpy faiss-cpu
 
 3. Run the API server
-uvicorn maestro_chat_improved:app --reload
+uvicorn maestro_chat:app --reload
 
 4. Install and start the frontend
 cd frontend
