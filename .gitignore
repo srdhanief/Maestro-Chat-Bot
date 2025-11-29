@@ -13,3 +13,6 @@ embed_cache/
 Thumbs.dv
 
 .env
+
+node_modules/
+package-lock.json
