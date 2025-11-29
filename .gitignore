@@ -1,0 +1,15 @@
+models/
+faiss_index/
+cache/
+*gguf
+
+__pycache__/
+*.pkl
+
+chroma_db/
+embed_cache/
+
+.DS_Store
+Thumbs.dv
+
+.env
